@@ -1,0 +1,448 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+#firstPage{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-image: url("carTint.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Header styling */
+
+#logo{
+    width:100px;
+     height:50px;
+     position: relative;
+     top: 4vh;
+     left: 4vw;
+}
+
+header{
+    width: 100%;
+    height: 20vh;
+    background-color: rgba(24, 23, 23, 0.172);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    
+    z-index: 1;
+    
+}
+
+#box{
+    width: 50%;
+    height: 100vh;
+    position: fixed;
+    background-color: rgb(29, 29, 29);
+    left:  110%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+#box a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.fa-times{
+    color: rgb(47, 141, 204);
+    font-size: 35px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.392);
+    position: relative;
+    left: 2vw;
+}
+
+#hamburger{
+    background: none;
+    border: none;
+    height: 100px;
+    width: 50px;
+    position: relative;
+    right: 4vw;
+
+}
+
+/* size of hamburger icon */
+.fa-bars{
+    color: rgb(36, 161, 233);
+    font-size: 30px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.371);
+}
+
+/* Landing Text container  */
+
+#text{
+    width: 90%;
+    height: 40vh;
+    text-align: center;
+    position: relative;
+    left: 5%;
+    top: 30vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center
+}
+
+/* Roberts tint shop  */
+#text h1{
+    font-size: 50px;
+    font-family: 'Timmana', sans-serif;
+    color: black;
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(193, 193, 194));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+   
+    
+  
+}
+
+/* "24 years of experience  */
+#text h3{
+    color: rgb(233, 233, 233);
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.268);
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+}
+#landingButton,#galllery a{
+    background-color: none;
+    border:1px solid rgba(250, 250, 250, 0.707);
+    color: rgb(159, 201, 240);
+    text-decoration: none;
+    position: relative;
+    top:3vh;
+    width: 40%;
+    position: relative;
+    left: 30%;
+    padding: 15px 10px 10px 10px;
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+
+
+
+#page2{
+    text-align: center;
+    width: 100%;
+    height: 230vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#page2 p{
+    width: 60%;
+    position: relative;
+    left: 20%;
+    font-family: 'Didact Gothic', sans-serif;
+}
+#page2 h3{
+    font-family: 'Timmana', sans-serif;
+    font-size: 30px;
+    color: rgb(63, 63, 63);
+    padding-top: 4vh;
+
+}
+
+#tintChoices,#appointment,#prices{
+    width:100%;
+    height: 60vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+
+.fa-dollar-sign,.fa-calendar-alt,.fa-car-side,.fa-search-location,.fa-phone,.fa-instagram
+{
+    color: rgb(47, 141, 204);
+    font-size: 60px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.392);
+}
+
+
+
+#page2 button{
+    background-color: none;
+    border:1px solid rgba(5, 5, 5, 0.349);
+    color: rgb(28, 109, 191);
+    text-decoration: none;
+    position: relative;
+    top:3vh;
+    width: 40%;
+    position: relative;
+    left: 30%;
+    padding: 15px 10px 10px 10px;
+    text-align: center;
+    font-family: 'Timmana', sans-serif;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.082);
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+#galllery{
+    width: 100%;
+    height: 250vh;
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#sections{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    height: 100%;
+}
+
+
+#one,#two{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 10vh;
+    
+}
+
+#two{
+    position: relative;
+    top: 2vh;
+ 
+
+}
+
+#carImg{
+    width: 80%;
+    height: 80%;
+    position: relative;
+    left: 10%;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.329);
+}   
+#galllery h3{
+    color: rgb(226, 226, 226);
+    font-size: 30px;
+    font-family: 'Timmana', sans-serif;
+    text-align: center;
+    position: relative;
+    bottom: 13vh;
+}
+
+#preFooter{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#location,#phone,#socials{
+    width: 90%;
+    height: 30vh;
+    background-color: rgba(19, 19, 19, 0.836);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    left: 5%;
+    justify-content: space-evenly;
+    box-shadow: 5px 4px 3px rgba(0, 0, 0, 0.419);
+}
+
+#preFooter h1,#preFooter h3{
+    color: rgba(255, 255, 255, 0.671);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.363);
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+
+footer{
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(22, 22, 22);
+    text-align: center;
+}
+
+#top
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 3vh;
+    
+}
+#top a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Timmana', sans-serif;
+
+}
+
+
+ footer h1{
+    position: relative;
+    top: 3vh;
+    color: rgb(97, 95, 95);
+    font-family: 'Timmana', sans-serif;
+ }
+
+
+@media only screen and (min-width: 500px) {
+    #carImg{
+        width: 60%;
+        height: 80%;
+        position: relative;
+        left: 20%;
+        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.329);
+    }  
+  }
+
+
+
+@media only screen and (min-width: 700px) {
+    #one,#two{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+        background-color: rgba(0, 0, 0, 0);
+       
+        
+    }
+    
+    #two{
+        position: relative;
+        
+     
+    
+    }
+
+    #carImg{
+        width: 40%;
+        height: 80%;
+        position: relative;
+        left: 0%;
+        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.329);
+    }  
+
+    #galllery{
+        width: 100%;
+        height: 160vh;
+        background-color: rgb(51, 51, 51);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #galllery h3{
+      
+        font-size: 40px;
+     
+        bottom: 5vh;
+    }
+    #page2{
+        height: 100vh;
+    }
+    
+    #sections{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+        height: 100%;
+       
+    }
+    
+    #tintChoices,#appointment,#prices{
+        width:100%;
+        height: 60vh;
+        position: relative;
+        top: 10vh;
+        display: flex;
+        flex-direction: column;
+    
+        
+    }
+
+    #preFooter{
+        width: 100%;
+        height: 50vh;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+    }
+
+    #location,#phone,#socials{
+        width: 30%;
+        height: 30vh;
+       
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        left: 0%;
+        top: 10vh;
+        justify-content: space-evenly;
+        box-shadow: 5px 4px 3px rgba(0, 0, 0, 0.193);
+        
+    }
+    
+    
+    
+  }
+
+  @media only screen and (orientation: landscape) and (max-width:700px) {
+    #page1{
+        height: 130vh;
+    }
+
+    #page2{
+        height: 300vh;
+    }
+
+    #galllery{
+        height: 300vh;
+        
+    }
+    #one,#two{
+        flex-direction: row;
+    }
+    #carImg{
+        width: 40%;
+        height: 80%;
+        position: relative;
+        left: 0%;
+        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.329);
+    }  
+    
+   
+  }
