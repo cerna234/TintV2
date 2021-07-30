@@ -1,6 +1,8 @@
 
 
 
+  
+
 * {
     margin: 0;
     padding: 0;
@@ -60,6 +62,7 @@ header{
     color: white;
     text-decoration: none;
     font-family: 'Didact Gothic', sans-serif;
+    
 }
 
 .fa-times{
@@ -67,7 +70,7 @@ header{
     font-size: 35px;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.392);
     position: relative;
-    left: 2vw;
+    left: 4vw;
 }
 
 #hamburger{
@@ -184,7 +187,7 @@ header{
 
 
 
-#page2 button{
+#page2 a{
     background-color: none;
     border:1px solid rgba(5, 5, 5, 0.349);
     color: rgb(28, 109, 191);
@@ -313,8 +316,106 @@ footer{
     font-family: 'Timmana', sans-serif;
  }
 
+    /* Form Styling */
 
-@media only screen and (min-width: 500px) {
+    form{
+        background-color: rgba(255, 0, 0, 0);
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        position: relative;
+        top: 20vh;
+        text-align: center;
+        color: white;
+        font-family: 'Timmana', sans-serif;
+    }
+    form h2{
+        font-size: 30px;
+    }
+
+    form p{
+        font-family: 'Didact Gothic', sans-serif;
+        width: 80%;
+        position: relative;
+        left: 10%;
+    }
+
+    form input{
+        background-color: rgb(235, 232, 232);
+        border: none;
+        box-shadow: 2px 2px 2px rgba(44, 44, 44, 0.507);
+        width: 80%;
+        font-family: 'Didact Gothic', sans-serif;
+        padding: 5px 10px 5px 10px;
+        left: 8%;
+        position: relative;
+        
+        
+    }
+
+    form input::placeholder{
+        color: rgba(179, 177, 177, 0.61);
+        
+        
+    }
+
+    form button{
+        padding: 10px 10px 10px 10px;
+        border: 2px white solid;
+        background-color: none;
+        width: 40%;
+        color: white;
+        position: relative;
+        left: 30%;
+
+
+    }
+
+   
+  
+    /* Gallery Page styiling */
+#galleryPage{
+    width: 100%;
+    height: 800vh;
+    background-image: url("gallleyImage.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+   
+
+}
+
+#row{
+    width: 100%;
+    height: 250vh;
+    background-color: rgb(7, 141, 202);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#imgGallery{
+    width: 60%;
+    height: 40vh;
+    background-color: rgb(7, 141, 202);
+    position: relative;
+    left: 20%;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.336);
+    
+}
+
+#ImgGalleryImage{
+    width: 100%;
+    height: 100%;
+}
+
+
+@media only screen and (min-width: 500px) and (min-height:500px) {
     #carImg{
         width: 60%;
         height: 80%;
@@ -322,11 +423,36 @@ footer{
         left: 20%;
         box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.329);
     }  
+    #text h1{
+        font-size: 70px;
+    }
+    
+    /* "24 years of experience  */
+    #text h3{
+
+        font-size: 30px;
+    }
+    form {
+        width: 50%;
+    }
+    
+    #car{
+        width: 50%;
+        height: 100vh;
+        background-image: url("carBack.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: -2px -2px 2px rgba(0, 0, 0, 0.26);
+    }
+
+    #container{
+        display: flex;
+    }
   }
 
 
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 800px) and (min-height:500px) {
     #one,#two{
         width: 100%;
         height: 50vh;
@@ -416,8 +542,59 @@ footer{
         box-shadow: 5px 4px 3px rgba(0, 0, 0, 0.193);
         
     }
+
+    form {
+        width: 50%;
+    }
     
+    #car{
+        width: 50%;
+        height: 100vh;
+        background-image: url("carBack.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: -2px -2px 2px rgba(0, 0, 0, 0.26);
+    }
+
+    #container{
+        display: flex;
+    }
+
+    /* Gallery Page styiling */
+#galleryPage{
+    width: 100%;
+    height: 180vh;
+    background-color: ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 30vh;
+
+
+   
+
+}
+
+#row{
+    width: 100%;
+    height: 250vh;
+    position: relative;
+   
     
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#imgGallery{
+    
+    width: 20%;
+    height: 30vh;
+    background-color: blue;
+    position: relative;
+    left: 0%;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.541);
+}
+ 
     
   }
 
@@ -447,6 +624,14 @@ footer{
 
     footer{
         height: 20vh;
+    }
+    form{
+        background-color: rgba(255, 0, 0, 0);
+        width: 100%;
+        height: 90vh;
+       
+        top: 10vh;
+        
     }
     
    
