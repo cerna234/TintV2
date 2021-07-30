@@ -187,7 +187,7 @@ header{
 
 
 
-#tintChoices a,#appointment a,#prices a{
+#tintChoices a,#appoint,#prices a{
     background-color: none;
     border:1px solid rgba(5, 5, 5, 0.349);
     color: rgb(28, 109, 191);
