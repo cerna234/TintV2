@@ -414,6 +414,24 @@ footer{
     height: 100%;
 }
 
+#num{
+        
+            background-color: none;
+            border:none;
+            color: rgb(112, 112, 112);
+            text-decoration: none;
+            position: relative;
+            top:0vh;
+            width: 40%;
+            position: relative;
+            left: 30%;
+            padding: 15px 10px 10px 10px;
+            text-align: center;
+            font-family: 'Timmana', sans-serif;
+            box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.082);
+          font-family: 'Didact Gothic', sans-serif;
+        
+    }
 
 @media only screen and (min-width: 500px) and (min-height:500px) {
     #carImg{
