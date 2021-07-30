@@ -414,21 +414,22 @@ footer{
     height: 100%;
 }
 
-#num{
+
+    #num{
         
             background-color: none;
             border:none;
-            color: rgb(112, 112, 112);
+            color: rgb(0, 0, 0);
             text-decoration: none;
             position: relative;
             top:0vh;
-            width: 40%;
+            width: 0%;
             position: relative;
-            left: 30%;
+            left: 0%;
             padding: 15px 10px 10px 10px;
             text-align: center;
             font-family: 'Timmana', sans-serif;
-            box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.082);
+            box-shadow: none;
           font-family: 'Didact Gothic', sans-serif;
         
     }
